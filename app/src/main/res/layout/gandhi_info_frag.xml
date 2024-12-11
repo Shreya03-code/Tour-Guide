@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1E0F8">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gandhi_info"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="GANDHI MEMORIAL HOSPITAL"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gandhi Memorial Hospital is a heart specialist hospital in Kalyani, Nadia, West Bengal. This hospital is situated near Kalyani Main Station. A patient will find the name of Renowned interventional cardiologist Dr. Chandan Misra in the doctor list of Gandhi Memorial Hospital. For the last few years, Gandhi Hospital got remarkable achievements in the field of heart surgery. Under the supervision of the Best Cardiologist of Kalayni, this hospital has developed Modern Cathlabs, Cardio-Thoracic Department."
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stars: "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
+
+

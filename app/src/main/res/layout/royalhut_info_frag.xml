@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DED5EF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/royalhutinfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Royal Hut"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Restaurants in Kalyani provide various cuisines with an aesthetic seating arrangement and the best services. Restaurants act as great places for many situations. From team meetings to family dinners, it can help serve a wide range of audiences.
+Service options: Has all you can eat · Has fireplace · Has private dining room
+Address: ITI More Durga Puja Ground, B-16/19, A-B Connector, B 16, Block B, Kalyani, West Bengal 741235
+Hours:
+Open ⋅ Closes 11 pm
+Takeout: Now ⋅ Ends 10:30 pm
+ · More hours
+Phone: 098368 32967
+Menu: royalhut.in
+Reservations: royalhut.in
+Suggest an edit · Own this business?
+Price per person: ₹200–400
+Reported by 588 people
+
+ "
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+
+
+</LinearLayout>

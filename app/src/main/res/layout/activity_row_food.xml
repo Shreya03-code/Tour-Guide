@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hotel.RowHotelActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/back_food"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#82B9E4"
+        android:drawableStart="@drawable/baseline_arrow_back_24"
+        android:gravity="center_vertical"
+        android:scaleType="fitEnd"
+        android:text="FOOD"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details For Foods"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/berkshire_swash"
+        android:textColor="#768886"
+        android:layout_marginTop="15dp">
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/food5">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/but_dhakeswari"
+        android:layout_width="376dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:drawablePadding="30dp"
+        android:gravity="center"
+        android:scaleType="fitEnd"
+        android:text="Dhakeswari palace Details"
+        android:textColor="#0B1651"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:id="@+id/but_letseat"
+        android:layout_width="376dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/white"
+        android:drawablePadding="30dp"
+        android:gravity="center"
+        android:scaleType="fitEnd"
+        android:text="Let's EAT Details"
+        android:layout_marginTop="10dp"
+        android:textColor="#0B1651"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:id="@+id/but_rolla"
+        android:layout_width="376dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/white"
+        android:drawablePadding="30dp"
+        android:gravity="center"
+        android:scaleType="fitEnd"
+        android:text="ROLLA COSTA Details"
+        android:layout_marginTop="10dp"
+        android:textColor="#0B1651"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:id="@+id/but_royalhut"
+        android:layout_width="376dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/white"
+        android:drawablePadding="30dp"
+        android:gravity="center"
+        android:scaleType="fitEnd"
+        android:layout_marginTop="10dp"
+        android:text="ROYAL HUT Details"
+        android:textColor="#0B1651"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:id="@+id/but_shubham"
+        android:layout_width="376dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/white"
+        android:drawablePadding="30dp"
+        android:gravity="center"
+        android:scaleType="fitEnd"
+        android:text="SHUBHAM Details"
+        android:layout_marginTop="10dp"
+        android:textColor="#0B1651"
+        android:textSize="20dp">
+    </Button>
+
+
+
+</LinearLayout>

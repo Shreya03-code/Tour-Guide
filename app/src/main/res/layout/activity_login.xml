@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:padding="16dp"
+    android:background="@drawable/loginbg">
+
+    <ImageView
+        android:id="@+id/log_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/log_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email : "
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/log_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password : "
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/log_butt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#02569B"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/log_butt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Registered? Click Here"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#02569B"
+        android:textSize="20dp"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/log_butt3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:background="@android:color/transparent"-->
+<!--        android:text="Forgot password?"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="16dp" />-->
+
+
+</LinearLayout>

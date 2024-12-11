@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DED5EF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/simantainfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Kalyani Simanta"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Kalyani Simanta railway station is the Kolkata Suburban Railway station and terminal station of Kalyani Simanta branch line of Sealdah Railway division. It is situated beside A-B Connector, Kalyani in Nadia district in the Indian state of West Bengal.  In 1979, the rail line was extended from Kalyani main station to Kalyani Simanta and also established direct connectivity to Sealdah through Kalyani Simanta local EMU trains. "
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+
+
+
+</LinearLayout>

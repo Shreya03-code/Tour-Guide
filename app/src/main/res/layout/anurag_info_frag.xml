@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DBD9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anuraginfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Anurag Guest House"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anurag Guest House in Kalyani HO is one of the most trustworthy names in the field. They have received a 3.6 rating from their customers. Their service/product range includes Mughlai, Indian, Chinese, Biryani, Home Delivery etc, all available at competitive prices."
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DBD9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/geetinfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Hotel Geetanjali Delux"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Established in the year 2011, Hotel Geetanjali Deluxe in Kalyani Nadia, Kalyani, Nadia is a top player in the category Apartment Hotels in the Kalyani, Nadia. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Kalyani, Nadia.Hotel Geetanjali Deluxe in Kalyani Ho,Nadia well known for Restaurants in Nadia . Rated 3.3."
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
+
+

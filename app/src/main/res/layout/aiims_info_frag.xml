@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1E0F8">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aiims_info"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="AIIMS"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All India Institute of Medical Sciences Kalyani(AIIMS Kalyani) is a Public hospital and Medical school in Saguna, Kalyani, West Bengal, India. It is one of the AIIMS and Institutes of National Importance.The institution has a 960 bedded super specialty hospital with a medical college. Hospital and AYUSH have 920 beds, and the remaining 40 beds are in OPD. The super specialty hospital has 34 departments including Anaesthesiology, Biochemistry, Anatomy, Cardiology and Physiology."
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stars: "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+
+
+
+</LinearLayout>

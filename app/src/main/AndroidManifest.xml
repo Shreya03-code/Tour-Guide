@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TourGuide"
+        tools:targetApi="31">
+        <activity
+            android:name=".GalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".park.RowFunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".park.DetailsMonimalaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".park.DetailsPicnicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".park.DetailsLakeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".park.DetailsChittaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".park.DetailsCpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".food.DetailsRollacostaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".food.DetailsShubhamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".food.DetailsRoyalhutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".food.DetailsLetseatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".food.DetailsDhakeswaripalaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".food.RowFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".station.DetailsKanchraparaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".station.DetailsGhosparaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".station.DetailsSimantaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".station.DetailsKalyanimainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".station.DetailsSilpanchalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".station.RowStationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.RowHotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.DetailAnuragActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.DetailAaheliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.DetailDiamondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.DetailGeetanjaliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotel.DetailRoyalPalaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".atm.RowAtmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".atm.DetailsAxisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".atm.DetailsYesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".atm.DetailsHdfcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".atm.DetailsPnbActivity"
+            android:exported="false" />
+        <activity
+            android:name=".atm.DetailsSbiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hospital.DetailsGandhiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hospital.DetailsEsiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hospital.DetailAiimsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hospital.RowHospitalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hospital.DetailJnmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hospital.FragSnrGal"
+            android:exported="false" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".park.FunActivity"
+            android:exported="true" />
+        <activity
+            android:name=".food.FoodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".station.StationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".atm.CustomAtmList"
+            android:exported="true" />
+        <activity
+            android:name=".atm.AtmActivity"
+            android:exported="true" />
+        <activity
+            android:name=".hotel.HotelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".hospital.DetailHospitalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".hospital.HospitalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AttractionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDdhqDB4FZg7Q-FDo7j4B_g0TFO0pPYf7k" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

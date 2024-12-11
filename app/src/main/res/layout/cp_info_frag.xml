@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E0DF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cpinfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Central Park"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Central Park is located at the heart of the township of Kalyani. It is the nucleus of the town. All the important buildings of the town such as banks, Kalyani Town Club, post office and administrative units are located within a small radius of this area which is the Central Park. The Central Park is also very important as far as the transport of the town is concerned. All the diagonal roads of the town meet in this particular place successfully highlighting the planned nature of the township. The places which are connected directly to the Central Park are the Picnic Garden, A-Block connector, 3 no. market, Buddha Park, I.T.I. crossing, 2 no, market. The interlinking of the roads is a special feature of the township.
+ "
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+
+
+</LinearLayout>

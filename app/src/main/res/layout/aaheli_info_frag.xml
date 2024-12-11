@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DBD9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aaheliinfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Aaheli Guest House"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Established in the year 2000, Aaheli Guest House in I T I Road, Kalyani, Nadia is a top player in the category Guest House in the Kalyani, Nadia. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Kalyani, Nadia."
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Year of Establishment: "
+       android:textSize="20dp"
+       android:textColor="@color/black"
+       android:paddingLeft="10dp">
+   </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="ADDRESS: "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="B-9/12 CA, Ground Floor, Ghoshpara Station Road, Ghoshpara, Kalyani - 741235 (Below Union Bank)."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp">
+    </TextView>
+
+
+
+</LinearLayout>
+
+

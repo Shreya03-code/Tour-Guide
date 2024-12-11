@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="google_map_api_key">AIzaSyA375sBNvXM2dPKqr-gX4s5IwbmuP6wcrU</string>
+    <string name="snr_carnival_hospital">SNR CARNIVAL HOSPITAL</string>
+    <string name="open"> Open Navigation Drawer</string>
+    <string name="close"> Close Navigation Drawer</string>
+
+</resources>

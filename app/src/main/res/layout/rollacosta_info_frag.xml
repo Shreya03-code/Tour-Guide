@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DED5EF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rollacostainfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Rolla Costa"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Rollacosta is a quite popular name in Kalyani. It is located near IT more,Kalyani Ghoshpara. It`s a cozy cafe with beautiful wall decors.
+Service options: Has all you can eat · Serves vegetarian dishes · Has kids' menu
+Address: B-9/11(CA), Kalyani, B 9, Block B, Kalyani, West Bengal 741235
+Hours:
+Closed ⋅ Opens 12 pm Sun
+Phone: 098041 90240
+Suggest an edit · Own this business?
+Price per person: ₹200–400
+Reported by 252 people.
+ "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+
+
+
+</LinearLayout>

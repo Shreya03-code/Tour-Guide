@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DBD9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/diamondinfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Diamond Guest House"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="At DIAMOND GUEST HOUSE in Kalyani, India, guests can enjoy a variety of spacious and comfortable room options. The Deluxe Double Room offers 200 square meters.Nestled in a charming village, this air-conditioned guest house offers a quaint retreat. Address. Kalyani Nadia, B-11/10, Kalyani Lake Road, Kalyani ."
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
+
+

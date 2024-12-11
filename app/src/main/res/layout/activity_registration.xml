@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity"
+    android:padding="16dp"
+    android:background="@drawable/loginbg">
+
+    <ImageView
+        android:id="@+id/registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username : "
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email : "
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password : "
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/reg_butt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#02569B"
+        android:text="Sign up now"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/reg_butt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already registered? LogIn Here"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:textSize="22dp"/>
+
+</LinearLayout>

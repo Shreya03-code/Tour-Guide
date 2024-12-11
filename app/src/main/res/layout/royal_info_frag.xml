@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DBD9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jnm_infoim"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Hotel Royal Palace"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotel Royal Palace is one of the most popular hotels in kalyani. It is situated at Sunity Road in front of the Children Park attached with Brahmmo Mandir (Brahmmo Upasanalaya), very close to Sagardighi Square . The Central Bus Terminus is at a walking distance and New kalyani Railway station is less than 500M away from the hotel."
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E0DF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chittainfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Chittaranjan Park"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Kalyani Chittaranjan Park is an iconic lushly green open park with a legacy spanning back since the inception of the Kalyani Town! Our Durga Puja is known for being one of most renowned ceremonies in Kalyani. Chittaranjan Park offers a wealth of natural beauty and recreational opportunities. Its landscapes can bring a sense of calm and wonder, making outdoor activities both engaging and enjoyable. The park serves as a bridge between the bustling city and tranquil nature, offering a retreat for relaxation and rejuvenation.
+ "
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+
+
+
+</LinearLayout>

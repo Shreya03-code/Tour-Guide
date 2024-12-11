@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1E0F8">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jnm_infoim"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="JNM HOSPITAL"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College of Medicine and JNM Hospital, Kalyani, Nadia, was set up under the ownership and administrative control of the WBUHS, in the year 2009.The College and the Hospital are located in same campus of 76.3 acres of land. The Hospital has 450 teaching beds with extra admissions in all departments due to heavy rush of patients.The institution is situated at a distance of 100 meters from Kalyani Shlipanchal Railway Station and 1.5 Km from Kalyani Railway Station."
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stars: "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
+
+

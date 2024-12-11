@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DED5EF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/silpanchalinfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Kalyani Shilpanchal"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Kalyani Silpanchal railway station is a Kolkata Suburban Railway station on the Kalyani Simanta branch line of Sealdah railway division. It is situated at Shilpanchal Road, Kalyani in Nadia district in the Indian state of West Bengal.  It serves Kalyani industrial areas. In 1954 it was renamed into Kalyani. In 1979, the rail line was extended from Kalyani main station to Kalyani Simanta railway station."
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+
+
+
+</LinearLayout>

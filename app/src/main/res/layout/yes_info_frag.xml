@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1E0F8">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/atm7"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="YES"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="YES BANK is a 'Full Service Commercial 'Bank' providing a complete range of products, services and technology driven digital offerings, catering to Retail, MSME as well as corporate clients.Yes Bank (stylised as YES BANK) is an Indian private sector bank, headquartered in Mumbai, catering to retail customers, MSMEs, and corporate clients. Its network is spread across 300 districts in India and comprises 1,198 branches, 193 BCBOs and 1,287+ ATMs."
+        android:textSize="20dp" />
+
+
+
+
+</LinearLayout>

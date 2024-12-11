@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DED5EF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kanchraparainfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Kanchrapara Station"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Kanchrapara railway station is a Kolkata Suburban Railway station in Kanchrapara on the Sealdah–Ranaghat line. It is situated in North 24 Parganas district, on the outskirts of Kolkata in the state of West Bengal, India. It mainly serves the Greater Kanchrapara town region and the surrounding areas.  There were plans of making this crowded station a junction stop, but this has not been initiated yet, mainly due to the less space available to expand the station."
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+
+
+
+</LinearLayout>

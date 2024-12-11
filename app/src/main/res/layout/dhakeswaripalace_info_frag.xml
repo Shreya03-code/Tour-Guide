@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DED5EF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dhakwswariinfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Dhakeswari Palace"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="This restaurant serves good dishes specially Chinese. The ambience is good and one can take parcel as well. It is located near central park
+Service options: Has all you can eat · Serves vegan dishes · Has kids' menu
+Address: B - 8/4(C.A), near ITI More, B8, Block B, Kalyani, West Bengal 741235
+Hours:
+Closes soon ⋅ 11 pm ⋅ Opens 10:30 am Sun
+Phone: 033 2582 0201
+ "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+
+
+
+</LinearLayout>

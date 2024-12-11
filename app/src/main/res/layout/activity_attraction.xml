@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttractionActivity"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@drawable/attractions"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AttractionActivity"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:background="@drawable/attractions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:paddingRight="16dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:navigationIcon="@drawable/baseline_menu_24"
+            />
+
+        <TextView
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:text="Tour Guide"
+            android:textColor="#892836"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="376dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:drawableEnd="@drawable/baseline_search_24"
+            android:drawablePadding="30dp"
+            android:gravity="left"
+            android:scaleType="fitEnd"
+            android:text="I AM LOOKING FOR"
+            android:textColor="@color/black"
+            android:textSize="22dp">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:paddingRight="16dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/butt_hospital"
+                android:layout_width="116dp"
+                android:layout_height="99dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_shape"
+                android:drawableTop="@drawable/baseline_local_hospital_24"
+                android:drawableTint="@color/black"
+                android:gravity="center"
+                android:text="HOSPITAL"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/butt_hotel"
+                android:layout_width="116dp"
+                android:layout_height="99dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_shape"
+                android:drawableTop="@drawable/baseline_night_shelter_24"
+                android:drawableTint="@color/black"
+                android:text="HOTEL"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/butt_atm"
+                android:layout_width="116dp"
+                android:layout_height="97dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_shape"
+                android:drawableTop="@drawable/baseline_atm_24"
+                android:drawableTint="@color/black"
+                android:text="ATM"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/butt_station"
+                android:layout_width="116dp"
+                android:layout_height="99dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_shape"
+                android:drawableTop="@drawable/baseline_train_24"
+                android:drawableTint="@color/black"
+                android:gravity="center"
+                android:text="STATION"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/butt_food"
+                android:layout_width="116dp"
+                android:layout_height="99dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_shape"
+                android:drawableTop="@drawable/baseline_flatware_24"
+                android:drawableTint="@color/black"
+                android:text="FOOD"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/butt_fun"
+                android:layout_width="116dp"
+                android:layout_height="99dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="#8B4A35"
+                android:drawableTop="@drawable/baseline_park_24"
+                android:drawableTint="@color/black"
+                android:text="PARK"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/my_loc"
+            android:layout_width="354dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:background="@null"
+            android:drawableEnd="@drawable/baseline_location_on_24"
+            android:drawablePadding="16dp"
+            android:gravity="left"
+            android:scaleType="fitEnd"
+            android:text="My Location"
+            android:textColor="@color/black"
+            android:textSize="25dp">
+
+        </Button>
+
+    </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.drawerlayout.widget.DrawerLayout>

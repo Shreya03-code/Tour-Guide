@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DED5EF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/letsinfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Let's Eat"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Order Food Online from Let's Eat in Kalyani HO,Nadia well known for Restaurants in Nadia . Rated 4.0 based on 1479 Customer Reviews
+Service options: Has all you can eat · Serves vegan dishes · Has kids' menu
+Address: B-8/36(CA, B8, Block B, Kalyani, West Bengal 741235
+Hours:
+Closes soon ⋅ 11 pm ⋅ Opens 11 am Sun
+Updated by others 7 weeks ago
+Phone: 097482 36151
+Price per person: ₹200–400
+Reported by 257 people
+Timings
+•	Mon - Sun
+10:00 am - 10:30 pm
+
+
+ "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+
+
+
+</LinearLayout>

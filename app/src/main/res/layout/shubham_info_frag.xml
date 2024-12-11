@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DED5EF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shubhaminfo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Shubham"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Subham Roll Center is known for providing mouthwater junk food in Kalyani HO, Kalyani. The food joint offers a number of signature dishes like Home Delivery , Delivery Service.
+•	Type
+Delivery, Quick Bite Outlet, Take Away
+•	Average Cost
+Price For Two: ₹ 250
+•	Year of Establishment
+2006
+Timings
+•	Mon - Sun
+10:00 am - 10:30 pm
+
+
+ "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+
+
+
+</LinearLayout>

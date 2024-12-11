@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DED5EF">
+
+    <TextView
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="Kalyani Shilpanchal"
+        android:textColor="#9E4D47"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:padding="30dp"
+        android:src="@drawable/wethos"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30.26ºC (86.47ºF)"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#063E91"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="75sp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="KALYANI,NADIA"
+        android:textColor="#063E91"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
